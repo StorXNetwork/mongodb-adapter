@@ -1,6 +1,4 @@
-**Notice: Development on this repository is currently on pause during our v3 rearchitecture. Please see [storj/storj](https://github.com/storj/storj) for ongoing v3 development.**
-
-MongoDB Storage Adapter
+StorX Network MongoDB Storage Adapter
 =======================
 
 [![Build Status](https://img.shields.io/travis/Storj/mongodb-adapter.svg?style=flat-square)](https://travis-ci.org/Storj/mongodb-adapter)

@@ -1,6 +1,6 @@
 {
   "name": "storj-mongodb-adapter",
-  "version": "10.0.0",
+  "version": "9.0.1-beta",
   "description": "a storj-lib compatible storage adapter for mongodb",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/Storj/mongodb-adapter#readme",
   "dependencies": {
-    "mongoose": "^4.6.7",
-    "storj-lib": "^8.0.0",
-    "storj-service-storage-models": "^11.0.0"
+    "mongoose": "^5.10.4",
+    "storj-lib": "github:StorXNetwork/core#v8.7.3-beta",
+    "storj-service-storage-models": "github:StorXNetwork/service-storage-models#10.6.1-beta"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -32,8 +32,8 @@
   },
   "devopsBase": {
     "npmLinkDeps": {
-      "storj-lib": "core",
-      "storj-service-storage-models": "service-storage-models@billing-models"
+      "storj-lib": "github:StorXNetwork/core",
+      "storj-service-storage-models": "github:StorXNetwork/service-storage-models@billing-models"
     }
   }
 }
